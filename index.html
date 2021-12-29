@@ -8,27 +8,16 @@
 
   <body>
     <div class="input-area">
-      <input placeholder="INPUT TODO" type="text" />
-      <button>ADD</button>
+      <input id="add-text" placeholder="INPUT TODO" type="text" />
+      <button id="add-button">ADD</button>
     </div>
     <div class="uncomplete-area">
       <p class="title">UNFINISHED TODO</p>
-      <ul>
-        <div class="list-row">
-          <li>TODO</li>
-          <button>DONE</button>
-          <button>DELETE</button>
-        </div>
-      </ul>
+      <ul id="incomplete-list"></ul>
     </div>
     <div class="complete-area">
       <p class="title">FINISHED TODO</p>
-      <ul>
-        <div class="list-row">
-          <li>TODO</li>
-          <button>RETURN</button>
-        </div>
-      </ul>
+      <ul id="complete-list"></ul>
     </div>
 
     <script src="src/index.js"></script>
